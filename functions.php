@@ -1,8 +1,8 @@
 <?php
 
 /**
- * Theme Name: Headless
- * Author: Kurage Digital
+ * Theme Name: Next Wordless Back
+ * Author: Sean Verity
  */
 
 /* Setup Theme
