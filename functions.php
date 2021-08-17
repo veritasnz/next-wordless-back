@@ -64,22 +64,6 @@ if (function_exists('acf_add_options_page')) {
     ));
 }
 
-/* ACF JSON Import
-https://www.advancedcustomfields.com/resources/local-json/
------------------------------------------------ */
-// function custom_acf_json_save_point( $path ) {
-//     $path = get_stylesheet_directory() . '/acf-import';
-//     return $path;
-// }
-// add_filter('acf/settings/save_json', 'custom_acf_json_save_point');
-
-// function my_acf_json_load_point( $paths ) {
-//     unset($paths[0]);
-//     $paths[] = get_stylesheet_directory() . '/json-imports';
-//     return $paths;
-// }
-// add_filter('acf/settings/load_json', 'my_acf_json_load_point');
-
 /* Admin Area Custom CSS
 ----------------------------------------------- */
 function admin_style()
