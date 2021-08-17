@@ -1,0 +1,298 @@
+{
+    "key": "group_6107b2388b868",
+    "title": "Base Settings",
+    "fields": [
+        {
+            "key": "field_6107b2421ee14",
+            "label": "Site Title",
+            "name": "site_title",
+            "type": "text",
+            "instructions": "Between 50 - 60 characters. The name of you\/your organisation",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "show_in_graphql": 1,
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": 50
+        },
+        {
+            "key": "field_610fca58a0ae2",
+            "label": "Site Favicon (32 x 32px)",
+            "name": "site_favicon_small",
+            "type": "image",
+            "instructions": "A small square image that represents your site in web browsers. This image must be 32 x 32 pixels in size.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "show_in_graphql": 1,
+            "return_format": "array",
+            "preview_size": "thumbnail",
+            "library": "all",
+            "min_width": 32,
+            "min_height": 32,
+            "min_size": "",
+            "max_width": 32,
+            "max_height": 32,
+            "max_size": "",
+            "mime_types": "jpg, png"
+        },
+        {
+            "key": "field_610fce2ba0ae3",
+            "label": "Site Favicon (180 x 180)",
+            "name": "site_favicon_large",
+            "type": "image",
+            "instructions": "A square image that represents your site on various smart devices. This image should have a 1:1 ratio",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "show_in_graphql": 1,
+            "return_format": "array",
+            "preview_size": "thumbnail",
+            "library": "all",
+            "min_width": 180,
+            "min_height": 180,
+            "min_size": "",
+            "max_width": 180,
+            "max_height": 180,
+            "max_size": "",
+            "mime_types": "jpg, png"
+        },
+        {
+            "key": "field_610b796c93db0",
+            "label": "Placeholder Image",
+            "name": "site_placeholder_image",
+            "type": "image",
+            "instructions": "Image used in place where no other images can be found (e.g. for post cards on archive pages)",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "show_in_graphql": 1,
+            "return_format": "array",
+            "preview_size": "thumbnail",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_610fa6fd72ad3",
+            "label": "Placeholder Image Background Color",
+            "name": "site_placeholder_background",
+            "type": "color_picker",
+            "instructions": "Background color used while the Placeholder Image initially loads",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "show_in_graphql": 1,
+            "default_value": "#EEEEEE"
+        },
+        {
+            "key": "field_6108864cef251",
+            "label": "<h1>SEO<\/h1>",
+            "name": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "show_in_graphql": 1,
+            "message": "",
+            "new_lines": "wpautop",
+            "esc_html": 0
+        },
+        {
+            "key": "field_6107ba64e8b6f",
+            "label": "SEO Description",
+            "name": "seo_description",
+            "type": "text",
+            "instructions": "Between 150 - 160 characters.  This is different from the displayed site description",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "100",
+                "class": "",
+                "id": ""
+            },
+            "show_in_graphql": 1,
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": 160
+        },
+        {
+            "key": "field_610872dcae315",
+            "label": "SEO Image",
+            "name": "seo_image",
+            "type": "image",
+            "instructions": "Image to be display when linking site on social media. Recommended size is 1200 x 627 px",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "40",
+                "class": "",
+                "id": ""
+            },
+            "show_in_graphql": 1,
+            "return_format": "array",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "jpg, png"
+        },
+        {
+            "key": "field_61088e93bed0e",
+            "label": "SEO Type",
+            "name": "seo_type",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "30",
+                "class": "",
+                "id": ""
+            },
+            "show_in_graphql": 1,
+            "choices": {
+                "Organisation": "Organisation",
+                "Person": "Person"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "default_value": "Organisation",
+            "layout": "vertical",
+            "return_format": "value",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_61087698b08e1",
+            "label": "Twitter Username",
+            "name": "seo_twitter",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "30",
+                "class": "",
+                "id": ""
+            },
+            "show_in_graphql": 1,
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "@",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_61087561b08dd",
+            "label": "Facebook URL",
+            "name": "seo_facebook",
+            "type": "url",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "show_in_graphql": 1,
+            "default_value": "",
+            "placeholder": "https:\/\/ ..."
+        },
+        {
+            "key": "field_61087656b08de",
+            "label": "Instagram URL",
+            "name": "seo_instagram",
+            "type": "url",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "show_in_graphql": 1,
+            "default_value": "",
+            "placeholder": "https:\/\/ ..."
+        },
+        {
+            "key": "field_61087682b08df",
+            "label": "LinkedIn URL",
+            "name": "seo_linkedin",
+            "type": "url",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "show_in_graphql": 1,
+            "default_value": "",
+            "placeholder": "https:\/\/ ..."
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "site-options"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "Settings that apply to the entire site, e.g. SEO and 404 settings",
+    "show_in_graphql": 1,
+    "graphql_field_name": "base",
+    "map_graphql_types_from_location_rules": 0,
+    "graphql_types": "",
+    "modified": 1629166360
+}
